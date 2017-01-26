@@ -5,9 +5,9 @@ class Easyssh < Formula
   desc "SSH-related aliases done right"
   homepage 'https://github.com/abesto/easyssh'
   head 'git@github.com:abesto/easyssh', :using => :git
-  version '0.2.1'
+  version '0.2.2'
   url "https://github.com/abesto/easyssh/archive/v#{version}.tar.gz"
-  sha256 "f12fabf614ca9273560f5735f2caa594013fc8709be6a78e38c9f8f8361474ff"
+  sha256 "c432afd772c73f7722e9d0cc6c2d4699841a18333db40595bcf097d3613c0d1e"
 
   depends_on "go" => :build
 
