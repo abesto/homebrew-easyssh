@@ -7,7 +7,7 @@ class Easyssh < Formula
   head 'git@github.com:abesto/easyssh', :using => :git
   version '0.2.2'
   url "https://github.com/abesto/easyssh/archive/v#{version}.tar.gz"
-  sha256 "c432afd772c73f7722e9d0cc6c2d4699841a18333db40595bcf097d3613c0d1e"
+  sha256 "f3e7706c244f1e1afb51bc1571801af79f8c31c88ffb5cffcb9cdaf6dc1ee43a"
 
   depends_on "go" => :build
 
